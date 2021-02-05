@@ -40,6 +40,10 @@ header h1 {
     font-size: 48px;
 }
 
+p {
+    font-size: 28px;
+    
+}
 main{
     background-color: #2a607c;
     padding-top: 0;
@@ -50,38 +54,50 @@ main{
     
 
 }
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
 
 .about-me{
     color: #ffffff;
+    display: flex;
 }
-
+.about-me img{
+    max-height: 400px;
+}
 .about-me h2{
-    background-color: red;
-    height: 100px;
-    width: 10%;
+    background-color: rgb(124, 0, 173);
+    border: 1px solid yellow;
+    height: inherit;
+    width: 20%;
     
 }
 
-.about-me p{
-    flex-wrap: wrap;
+
+.about-me h2{
+    font-size: 46px;
+    
 }
 
 .work{
-    background-color: olive;
+    color: white;
+    background-color: rgb(124, 0, 173);
+    border: 1px solid yellow;
     height: 100px;
-    width: 10%;
+    width: 20%;
 }
 
-
-.box{  
+.container-3{
     display: flex;
+}
+.box{  
     flex-direction: row;
-    float: right;
     padding: 50px;
     background: red;       
     width: 50%;
     height: 100px;
-    border: 1px solid blue;
+    border: 1px solid rgb(72, 255, 0);
     box-sizing: border-box;
 }
 
