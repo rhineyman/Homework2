@@ -4,9 +4,7 @@
     padding: 0;
     margin: 0;
 }
-ul{
-    list-style-type: none;
-}
+
 #top-hypers{
     display: inline;    
     
@@ -112,7 +110,7 @@ aside{
     text-align: center;
 }
 
-
+/*footer*/
 
 footer {
     clear: both;
@@ -123,25 +121,28 @@ footer {
     color: #ffffff;
     text-align: center;
 }
+footer ul{
+    list-style-type: none;
+}
 h4{
     font-size: 28px;
     font-weight: bold;
 }
 
 
-
+/*Media*/
 
 @media only screen and (max-width: 1378px) {
     .box{
-        width: 48%;
+        width: 49%;
     }
 }
 @media only screen and (max-width: 768px) {
     .box{
-        width: 48%;
+        width: 49%;
     }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
     .box{
         width: 100%;
     }
