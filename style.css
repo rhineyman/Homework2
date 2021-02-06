@@ -4,26 +4,18 @@
     padding: 0;
     margin: 0;
 }
-
+ul{
+    list-style-type: none;
+}
 #top-hypers{
     display: inline;    
     
 }
 
-.title-image {
-    height: 600px;
-    width: 100%;
-    margin-bottom: 0px;
-    background-image: url("./images/Meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-
 
 header {
     display: flex; 
-    align-items: flex-end;
+    justify-content: space-between;
     width: 100%;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,8 +25,17 @@ header {
 
 header h1 {
     padding-left: 20px;
-    padding-right: 50%;
+    padding-right: 25px;
     font-size: 48px;
+}
+
+.title-image {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-image: url("./images/Meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 p {
@@ -99,7 +100,8 @@ aside{
     padding-top: 25px;
 }
 
-.box{  
+
+.box {  
     margin: 2px;
     padding: 50px;
     background: red;       
@@ -124,4 +126,23 @@ footer {
 h4{
     font-size: 28px;
     font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width: 1378px) {
+    .box{
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .box{
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .box{
+        width: 100%;
+    }
 }
